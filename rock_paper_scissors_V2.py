@@ -21,7 +21,7 @@ def play():
 
 # return True if player wins
 def is_win(player, oponent):
-    if (player == 'r' and oponent == 's') or (player == 's' and oponent == 'p') or (player == 'r' and oponent == 's'):
+    if (player == 'r' and oponent == 's') or (player == 's' and oponent == 'p') or (player == 'p' and oponent == 'r'):
         return True
 
 #---------------------------------------------------
